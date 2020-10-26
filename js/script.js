@@ -4,9 +4,7 @@
 
 // selected elements
 var navTrigger = document.getElementById('navs-trigger');
-var nav = document.querySelector('#navs');
-// var header = document.getElementById('header');
-// var heading = document.getElementById('heading');
+var nav = document.querySelector('#navs'); 
 var labels = document.getElementsByClassName('nav-labels');
 
 // sizing
@@ -59,3 +57,4 @@ function navToggle(e) {
 window.onload = resize;
 
 // /////////////////////////////////////////////////////////////////////////////////
+// const btnDown = document.querySelector('.benefits__but-down');
